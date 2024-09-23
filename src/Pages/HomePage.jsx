@@ -6,6 +6,7 @@ const Homepage =()=>{
         <>
         
         <p>Homepage</p>
+        <h1>Home Hero Page</h1>
         
         </>
     )
