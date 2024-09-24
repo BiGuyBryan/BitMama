@@ -13,12 +13,15 @@ import card2 from "../assets/bitcardblack.png"
 import card3 from "../assets/bitcardgreen.png"
 import circle from "../assets/yellow.png"
 import cylinder from "../assets/cylinder.png"
+import Navbar from "../Components/Navbar";
 
 
 const Homepage =()=>{
     return(
         <>
         
+        <Navbar/>
+
         <div className="homepage-wrap">
             <div className="hero-section">
                 <div className="hero-left">
