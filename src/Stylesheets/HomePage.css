@@ -3,6 +3,8 @@
     width: 100%;
     height: fit-content;
     background-color: white;
+    font-family: Bitmama;
+    color: #303131;
 }
 
 .hero-section{
@@ -11,7 +13,7 @@
     /* background-color: pink; */
     display: flex;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 100px;
 }
 
 
@@ -36,7 +38,8 @@
 .hero-header > h2{
     color: #0D4740;
     font-family: bold;
-    font-size: 50px;
+    font-size: 52px;
+    line-height: 1.2;
 }
 
 span#hero-head{
@@ -53,9 +56,10 @@ span#hero-head{
     gap: 10px;
     font-family: Bitmama;
     color: #303131;
+    line-height: 1.4;
 }
 p#hero-big{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
 }
 
@@ -69,19 +73,46 @@ p#hero-small{
     height: fit-content;
     /* background-color: bisque; */
     display: flex;
-    font-family: Bitmama;
+    padding: 3px 0;
 }
 
 button#hero-butn{
-    width: 150px;
+    width: 200px;
     height: 50px;
     background-color: #0D4740;
     color: white;
     border: none;
     border-radius: 30px;
-    font-size: 14px;
+    font-family: Bitmama;
+    font-size: 13px;
     font-weight: 500;
 }
+
+
+.playstore-wrap{
+    width: 100%;
+    height: fit-content;
+    /* background-color: beige; */
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: light;
+    font-size: 14.5px;
+    margin-top: 40px;
+}
+
+.store-logos{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+img#app-logo{
+    width: 110px;
+}
+
+
 
 
 
@@ -90,5 +121,341 @@ button#hero-butn{
 .hero-right{
     width: 50%;
     height: 100%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 7%;
+}
+
+
+
+.buy-sell-outer-wrap{
+    width: 450px;
+    height: fit-content;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    position: relative;
+}
+
+.buy-sell-box{
+    width: 100%;
+    height: fit-content;
+    background-color: #FCFDFD;
+    box-shadow: 0px 2px 8px rgba(229, 229, 229, 0.47);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 0 0 20px;
+    position: relative;
+    z-index: 3;
+}
+
+
+
+.buy-sell-wrap{
+    width: 70%;
+    height: 100%;
+    /* background-color: beige; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buy-sell-label{
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #CFDAD9;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family: bold;
+    color: #0D4740;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.buy-section{
+    width: 100px;
+    height: 100%;
+    /* background-color: beige; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sell-section{
+    width: 100px;
+    height: 100%;
+    /* background-color: beige; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.amount-box{
+    width: 100%;
+    height: 90px;
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 8px;
+    font-family: Bitmama;
+    font-size: 15px;
+    position: relative;
+}
+
+input#you-buy{
+    width: 100%;
+    height: 55px;
+    appearance: unset;
+    border-radius: 10px;
+    border: 1px solid #A1A3A2;
+    background-color: #f2f2f2;
+    padding: 0 15px;
+    font-size: 15px;
+    color: #A1A3A2;
+}
+
+img#received{
+    margin-top: 15px;
+    width: 22px;
+}
+
+select#country-selector{
+    width: 54px;
+    border: none;
+    background-color: #f2f2f2;
+    position: absolute;
+    right: 10px;
+    bottom: 16px;
+}
+
+
+
+button.butn-margin{
+    margin: 20px 0;
+}
+
+
+.btc-price{
+    width: 100%;
+    height: fit-content;
+    /* background-color: palegreen; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+img#btc-icon{
+    width: 22px;
+}
+
+.btc-price > p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+
+img#cube1{
+    width: 40px;
+    position: absolute;
+    z-index: 2;
+    left: -40px;
+}
+
+img#cube2{
+    width: 40px;
+    position: absolute;
+    z-index: 2;
+    right: -25px;
+    bottom: -60px;
+}
+
+img#circle{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    right: -50px;
+    top: -30px;
+}
+
+img#cylinder{
+    width: 100px;
+    position: absolute;
+    left: -52px;
+    bottom: -30px;
+}
+
+
+
+
+
+
+
+
+
+.section2{
+    width: 100%;
+    height: 500px;
+    background-color: #2c413e;
+    display: flex;
+    background-image: url(../assets/backgroundimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 100px;
+    overflow: hidden;
+}
+
+
+
+.section2-left{
+    width: 50%;
+    height: 100%;
+    /* background-color: palegreen; */
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.sec2-grid{
+    width: 480px;
+    height: fit-content;
+    /* background-color: gray; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 15px;
+    color: #F2F4F3;
+}
+
+.left-header{
+    grid-column: 1/span 2;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.left-header > h2{
+    font-size: 28px;
+    font-family: bold;
+    line-height: 1.2;
+}
+
+.left-header > p{
+    font-size: 14.5px;
+}
+
+
+.left-box{
+    /* background-color: pink; */
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.left-box > p{
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.grid-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #F2F4F3;
+    background-image: url(../assets/SVG/sm-card_vnkcao.svg);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+
+.section2-right{
+    width: 50%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+img.card{
+    width: 480px;
+    position: absolute;
+}
+
+#card1{
+    top: 40px;
+    z-index: 3;
+    animation-name: card1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+#card2{
+    top: 120px;
+    z-index: 2;
+    animation-name: card2;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+#card3{
+    width: 420px;
+    top: 200px;
+    animation-name: card3;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes card1 {
+    0%{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    40%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes card2 {
+    from{
+        transform: translateY(400px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+
+@keyframes card3 {
+    from{
+        opacity: 0;
+        transform: translateY(400px);
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
